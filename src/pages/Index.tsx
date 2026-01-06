@@ -153,7 +153,7 @@ const Index = () => {
             <div className="relative">
               <div className="relative aspect-square rounded-2xl overflow-hidden bg-card border border-border p-8">
                 <img
-                  src="https://cdn.poehali.dev/projects/5707e070-c436-46d7-8bde-dbcdb0809544/files/61cf6e94-bb54-4616-adc5-26933e8801bc.jpg"
+                  src="https://cdn.poehali.dev/files/IMG_0255.jpeg"
                   alt="Схема печи в разрезе"
                   className="w-full h-full object-contain"
                 />
