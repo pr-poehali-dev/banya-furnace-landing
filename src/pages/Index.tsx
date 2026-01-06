@@ -341,18 +341,16 @@ const Index = () => {
                     <span>{model.name}</span>
                     <Badge variant="secondary">{model.price}</Badge>
                   </CardTitle>
-                  <CardDescription>
-                    <div className="flex gap-4 mt-2">
-                      <span className="flex items-center gap-1 text-xs">
-                        <Icon name="Zap" size={14} />
-                        {model.power}
-                      </span>
-                      <span className="flex items-center gap-1 text-xs">
-                        <Icon name="Maximize" size={14} />
-                        {model.volume}
-                      </span>
-                    </div>
-                  </CardDescription>
+                  <div className="flex gap-4 mt-2 text-xs text-muted-foreground">
+                    <span className="flex items-center gap-1">
+                      <Icon name="Zap" size={14} />
+                      {model.power}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Icon name="Maximize" size={14} />
+                      {model.volume}
+                    </span>
+                  </div>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <Button variant="outline" className="w-full group/btn">
