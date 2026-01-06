@@ -103,10 +103,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="font-bold text-foreground flex items-center gap-2 text-xs">
-            <Icon name="Flame" className="text-primary" size={28} />
-            БанПечь
-          </h1>
+          <h1 className="font-bold text-foreground flex items-center gap-2 text-xl">Жарница</h1>
           <nav className="hidden md:flex gap-6">
             <a href="#specs" className="text-sm font-medium hover:text-primary transition-colors">
               Характеристики
